@@ -23,24 +23,36 @@
   <body>
     <header>
       <div>
-        <img src="source/img/berdyansk/night-in-city.jpg" width="100%" alt="The night in Berdyansk">
+        <img class="title-screen" src="source/img/berdyansk/night-in-city.jpg" alt="The night in Berdyansk">
+          <div class="header">
+            <div class="bar">
+              <div class="left">
+                <img class="logotype" src="source/img/logo.png" alt="Логотип гостиницы">
+              </div>
+              <div class="right">
+                <nav class="navigation">
+                    <ul dir="rtl">
+                      <li>
+                        <a href="/about us/"></a>О нас</li>
+                      <li>
+                        <a href="#rooms"></a>Номера</li>
+                      <li>
+                        <a href="#berdyansk"></a>Уютный Бердянск</li>
+                      <li>
+                        <a href="#contact"></a>Контакты</li>
+                    </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
       </div>
-      <nav>
-        <h1><i>Мини-пансион "100 шагов"</i></h1>
-          <ul dir="rtl">
-            <li><a href="#"></a>О нас</li>
-            <li><a href="#"></a>Номера</li>
-            <li><a href="#"></a>Уютный Бердянск</li>
-            <li><a href="#"></a>Контакты</li>
-          </ul>
-      </nav>
     </header>
     <main>
       <article>
         <section class="section-intro">
           <h2 class="title">О нас</h2>
           <br>
-          <p class="about">Город Бердянск - это прекрасное место для спокойного и приятного отдыха. Чистое море, песчаный пляж. Здесь вы забудете о своих хлопотах и с головой окунетесь в приятный солнечный отдых.
+          <p>Город Бердянск - это прекрасное место для спокойного и приятного отдыха. Чистое море, песчаный пляж. Здесь вы забудете о своих хлопотах и с головой окунетесь в приятный солнечный отдых.
           Наш гостеприимный пансионат рад приветствовать Вас на нашем сайте. Расскажем немного о себе. "100 шагов" уже более 15 лет принимает к себе в гости постояльцев, которые хотят отлично провести свой отпуск, без суеты большого города, отдохнуть душой и телом, искупаться в теплом Азовском море и приехать домой с бронзовым загаром.
           Мы всегда рады принимать в гости новых постояльцев, особенно наших давних друзей, которые семьями приезжают в наш уютный уголок уже много лет подряд, не изменяя традициям. </p>
         </section>
@@ -117,11 +129,11 @@
         </section>
       </article>
         <section class="section-rooms">
-          <h2>Номера</h2>
+          <h2 class="title">Номера</h2>
           <a href="#" class="rooms-container">
             <img class="rooms-img" src="source/img/lux/lobby.jpg" alt="Одна из комнат">
             <h3>Люкс</h3>
-            <p class="about">Номер находится на первом этаже.<br> Рассчитан на трех - четырех человек.<br>
+            <p>Номер находится на первом этаже.<br> Рассчитан на трех - четырех человек.<br>
                В номере есть одна двухспальная кровать,<br> две односпальные.
                Санузел внутри (душ+туалет).<br>
                Так же допольнительно холодильник,<br>телевизор, кондиционер.</p>
@@ -129,7 +141,7 @@
           <a href="#" class="rooms-container">
             <img class="rooms-img" src="source/img/semilux-room/room.jpg" alt="Основной вид">
             <h3>Полулюкс</h3>
-            <p class="about">Номер находится на первом этаже.<br> Рассчитан на двух - трех  человек.<br>
+            <p>Номер находится на первом этаже.<br> Рассчитан на двух - трех  человек.<br>
                В номере есть три односпальные кровати.<br> Санузел внутри (душ+туалет).<br>
                Так же допольнительно холодильник, телевизор.<br> Возле номера есть личная
                терраса. </p>
@@ -137,14 +149,14 @@
           <a href="#" class="rooms-container">
             <img class="rooms-img" src="source/img/standart-room/ordinary.jpg" alt="Часть комнаты">
             <h3>Стандарт</h3>
-            <p class="about">Номер находится на втором этаже.<br> Рассчитан на двух человек.<br>
+            <p>Номер находится на втором этаже.<br> Рассчитан на двух человек.<br>
               В номере есть две односпальные кровати.<br> Так же в номере есть телевизор,<br> вентилятор, тумбочка. На этаже холодильник, микроволновка.<br> Санузел общий, находится на улице (душ+туалет).</p>
           </a>
           <br>
           <button type="button" class="btn btn-primary">Смотреть цены</button>
         </section>
         <section class="section-berdyansk">
-          <h2>Уютный Бердянск</h2>
+          <h2 class="title">Уютный Бердянск</h2>
           <br>
           <div class="carousel-container">
             <div id="carousel-generic-2" class="carousel slide" data-ride="carousel">
@@ -228,19 +240,44 @@
             </div>
           </div>
           <br>
-          <p class="about">Бердянск находится на удивительной земле, где степь встречается с морем, где официальная история начинается с 1827 года, а неофициальная - помнит еще скифские племена и хранит эту память в виде курганов и каменных баб. Сердце Бердянска - конечно, Приморская площадь. Летом она многолюдная, пестрая и шумная. Каждый метр Приморской площади так или иначе развлекает и завлекает отдыхающих.<br>
+          <p>Бердянск находится на удивительной земле, где степь встречается с морем, где официальная история начинается с 1827 года, а неофициальная - помнит еще скифские племена и хранит эту память в виде курганов и каменных баб. Сердце Бердянска - конечно, Приморская площадь. Летом она многолюдная, пестрая и шумная. Каждый метр Приморской площади так или иначе развлекает и завлекает отдыхающих.<br>
           Главная достопримечательность города - Азовское море. Пляжей в Бердянске много, начиная от Центрального, в который упирается Приморская площадь, и заканчивая пляжами Бердянской косы. Помимо моря, сердца отдыхающих в Бердянске покоряют разные забавные памятники, созданные городской администрацией в последние 15 лет. Есть здесь памятники граблям, детству, бычку-кормильцу, зависти, дачникам, курортникам, сантехнику... Всех, пожалуй, не вспомнить. Каждый турист просто обязан сделать несколько фото с местными памятниками.
           В каждом городе можно найти миллион недостатков. Есть они и в Бердянске. НО стоит ли на них обращать внимание, когда вы наслаждаетесь теплым морем и прекрасной погодой во время своего отпуска.</p>
           <video src="source/video/summer-in-berdyansk.mp4" width="500" height="450" controls poster="source/img/berdyansk/observation-wheel.jpg"></video>
           <br>
           <video src="source/video/types-of-berdyansk.mp4" width="500" height="450" controls poster="source/img/berdyansk/sea.jpg"></video>
         </section>
-        <section>
+        <section  class="section-contact">
           <br>
-          <h2>Контакты</h2>
+          <h2 class="title">Контакты</h2>
           <br>
-          <iframe width="1300" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=16&center=46.7585,36.7749&key=AIzaSyAsJElprfG-u-nle_Kni3M4IZhWNJFRR7k" allowfullscreen>
+          <iframe width="850" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=16&center=46.7585,36.7749&key=AIzaSyAsJElprfG-u-nle_Kni3M4IZhWNJFRR7k" allowfullscreen>
           </iframe>
+        </section>
+        <section>
+          <form action="" method="POST">
+            <fieldset>
+              <legend></legend>
+              <p>Email: 100steps@gmail.com</p>
+              <p>Viber: +38 (068) 177 25 85</p>
+              <p>Skype: 100steps.org</p>
+              <p>Заполните поля для быстрой связи с нами:</p>
+              <label for="name-client">
+                <input type="text" name="name-client" placeholder="Имя" required>
+              </label>
+              <br>
+              <label for="email-client">
+                <input type="email" name="email-client" placeholder="E-mail" required>
+              </label>
+              <br>
+              <label for="phone-number">
+                <input type="number" name="phone-nubmer" placeholder="Телефон" required="">
+              </label>
+              <br>
+              <textarea name="text-message" placeholder="Текс сообщения" rows="7"></textarea>
+              <input type="submit" value="Отправить">
+            </fieldset>
+          </form>
         </section>
     </main>
     <footer>

@@ -1,9 +1,59 @@
-p {
-  color: gray;
-}
-.about {
+body * {
   font-family: 'Caveat Brush', cursive;
-  font-size: 15px;
+  font-size: 19px;
+}
+.title-screen {
+  width: 1350px;
+  height: 654px;
+  position: relative;
+}
+.header {
+  height: 80px;
+  position: absolute;
+  top: 0px;
+}
+.bar {
+  position: fixed;
+  width: 100%;
+  height: inherit;
+  display: flex;
+  padding: 0 20px;
+  font-size: 25px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #616161;
+  color: #fff;
+  z-index: 100;
+}
+.left {
+  display: flex;
+  align-items: center;
+  cursor: pointer,
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.navigation li {
+  display: inline;
+  color: lightgray;
+  font-size: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.logotype{
+  width: 251px;
+  top: 0px;
+  padding-top: 4px;*/
+  margin-right: 10px;
+  margin-top: 48px;
+}
+.title{
+  font-size: 40px;
+  color: #37474F;
+}
+p {
+  color: #616161;
 }
 .section-rooms {
   text-align: center;
@@ -18,4 +68,11 @@ p {
 .rooms-img {
   width: 300px;
   height: 300px;
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
 }

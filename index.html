@@ -23,16 +23,12 @@
                 <img class="logotype" src="source/img/logo.png" alt="Логотип гостиницы">
               </div>
               <div class="right">
-                <nav class="navigation">
+                <nav id="nav" class="navigation">
                     <ul dir="rtl">
-                      <li>
-                        <a href="#about us"></a>О нас</li>
-                      <li>
-                        <a href="#rooms"></a>Номера</li>
-                      <li>
-                        <a href="#berdyansk"></a>Уютный Бердянск</li>
-                      <li>
-                        <a href="#contact"></a>Контакты</li>
+                      <li><a class="link" href="#about-us">О нас</a></li>
+                      <li><a class="link" href="#rooms">Номера</a></li>
+                      <li><a class="link" href="#berdyansk">Уютный Бердянск</a></li>
+                      <li><a class="link" href="#contact">Контакты</a></li>
                     </ul>
                 </nav>
               </div>
@@ -44,7 +40,7 @@
       <article>
         <section class="section-intro">
           <h2 class="title">О нас</h2>
-          <p class="headnote"> Город Бердянск - это прекрасное место для спокойного и приятного отдыха. Чистое море, песчаный пляж. Здесь вы забудете о своих хлопотах и с головой окунетесь в приятный солнечный отдых. Наш гостеприимный пансионат рад приветствовать Вас на нашем сайте. Расскажем немного о себе. "100 шагов" уже более 15 лет принимает к себе в гости постояльцев, которые хотят отлично провести свой отпуск, без суеты большого города, отдохнуть душой и телом, искупаться в теплом Азовском море и приехать домой с красивым бронзовым загаром. Мы всегда рады принимать в гости новых постояльцев, особенно наших давних друзей, которые семьями приезжают в наш уютный уголок уже много лет подряд, не изменяя традициям. </p>
+          <p class="headnote" id="about-us"> Город Бердянск - это прекрасное место для спокойного и приятного отдыха. Чистое море, песчаный пляж. Здесь вы забудете о своих хлопотах и с головой окунетесь в приятный солнечный отдых. Наш гостеприимный пансионат рад приветствовать Вас на нашем сайте. Расскажем немного о себе. "100 шагов" уже более 15 лет принимает к себе в гости постояльцев, которые хотят отлично провести свой отпуск, без суеты большого города, отдохнуть душой и телом, искупаться в теплом Азовском море и приехать домой с красивым бронзовым загаром. Мы всегда рады принимать в гости новых постояльцев, особенно наших давних друзей, которые семьями приезжают в наш уютный уголок уже много лет подряд, не изменяя традициям. </p>
         </section>
         <section class="section-carousel">
           <div class="carousel-container">
@@ -111,29 +107,30 @@
           </div>
         </section>
       </article>
-      <h2 class="title">Номера</h2>
+      <div>
+        <h2 class="title" id="rooms">Номера</h2>
+      </div>
       <section class="section-rooms">
-        <a href="#" class="rooms-container-lux">
+        <a href="#" class="rooms-container-lux link">
           <img class="rooms-img" src="source/img/lux/lobby.jpg" alt="Одна из комнат">
           <h3>Люкс</h3>
           <p class="rooms-container-lux-text">Номер находится на первом этаже.<br> Рассчитан на трех - четырех человек.<br>
              В номере есть одна двухспальная кровать,<br> две односпальные.
-             Санузел внутри (душ+туалет).<br>
-             Так же допольнительно холодильник,<br>телевизор, кондиционер.</p>
+             Санузел внутри (душ+туалет).<br>Дополнительно холодильник,<!--  телевизор, кондиционер -->.</p>
         </a>
-        <a href="#" class="rooms-container-semilux">
+        <a href="#" class="rooms-container-semilux link">
           <img class="rooms-img" src="source/img/semilux-room/room.jpg" alt="Основной вид">
           <h3>Полулюкс</h3>
           <p>Номер находится на первом этаже.<br> Рассчитан на двух - трех  человек.<br>
              В номере есть три односпальные кровати.<br> Санузел внутри (душ+туалет).<br>
-             Так же допольнительно холодильник, телевизор.<br> Возле номера есть личная
-             терраса. </p>
+             Так же допольнительно холодильник, телевизор.<br> <!-- Возле номера есть личная
+             терраса. --> </p>
         </a>
-        <a href="#" class="rooms-container-ordinary">
+        <a href="#" class="rooms-container-ordinary link">
           <img class="rooms-img" src="source/img/standart-room/ordinary.jpg" alt="Часть комнаты">
           <h3>Стандарт</h3>
           <p>Номер находится на втором этаже.<br> Рассчитан на двух человек.<br>
-            В номере есть две односпальные кровати.<br> Так же в номере есть телевизор,<br> вентилятор, тумбочка. На этаже холодильник, микроволновка.<br> Санузел общий, находится на улице (душ+туалет).</p>
+            В номере есть две односпальные кровати.<br> Так же в номере есть телевизор,<br> вентилятор, тумбочка. На этаже холодильник, микроволновка.<br> <!-- Санузел общий, находится на улице (душ+туалет). --></p>
         </a>
       </section>
       <br>
@@ -141,7 +138,7 @@
         <button type="button" class="btn btn-primary">Смотреть цены</button>
       </div>
       <section class="section-berdyansk">
-        <h2 class="title-berdyansk">Уютный Бердянск</h2>
+        <h2 id="berdyansk" class="title-berdyansk">Уютный Бердянск</h2>
         <div class="carousel-container">
           <div id="carousel-generic-2" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -234,8 +231,8 @@
         </div>
       </section>
       <section class="section-contact">
-        <h2 class="title-footer">Контакты</h2>
-        <div id="contact">
+        <h2 id="contact" class="title-footer">Контакты</h2>
+        <div id="contact-form">
           <div class="map-berd">
             <iframe class="map" src="https://www.google.com/maps/embed/v1/view?zoom=16&center=46.7585,36.7749&key=AIzaSyAsJElprfG-u-nle_Kni3M4IZhWNJFRR7k" allowfullscreen>
             </iframe>

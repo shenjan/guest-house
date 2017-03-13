@@ -289,12 +289,12 @@
               </address>
               <form action="https://formspree.io/yanageraxl@gmail.com" method="POST">
                 <label>Заполните поля для быстрой связи с нами:</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Имя" required>
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
-                <input type="tel" class="form-control" id="inputPhone" title="+38(000)222-33-44" placeholder="+38 (000)222-33-44" required>
-                <textarea class="form-control" placeholder="Текст сообщения" rows="5"></textarea>
-                <input class="btn btn-primary submit-btn" type="submit" value="Отправить">
-                <input class="btn btn-primary submit-btn" type="reset" value="Сбросить">
+                <input type="text" class="form-control" id="inputName" name="input-name" placeholder="Имя" required>
+                <input type="email" class="form-control" name="input-email" id="inputEmail" placeholder="Email" required>
+                <input type="tel" class="form-control" id="inputPhone" name="input-phone" title="+38(000)222-33-44" placeholder="+38 (000)222-33-44" required>
+                <textarea class="form-control" name="input-text-area" placeholder="Текст сообщения" rows="5"></textarea>
+                <input class="btn btn-primary submit-btn" name="input-submit" type="submit" value="Отправить">
+                <input class="btn btn-primary submit-btn" name="input-reset" type="reset" value="Сбросить">
               </form>
             </div>
           </div>

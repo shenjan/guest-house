@@ -18,7 +18,7 @@ nav {
 }
 
 .navbar-color:hover {
-  background: red;
+  background: #514d4d;
 }
 
 #head-fon {
@@ -45,6 +45,14 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+panel-heading {
+  text-align: center;
+}
+
+address {
+  margin: 13px 0px;
 }
 
 .navbar {
@@ -104,18 +112,9 @@ footer {
   padding-bottom: 72%;
 }
 
-address {
-  margin: 13px 0px;
-}
-
 .form-control {
   margin: 15px 0;
 }
-
-panel-heading {
-  text-align: center;
-}
-
 
 .submit-btn {
   margin-top: 15px;
@@ -127,20 +126,19 @@ panel-heading {
   margin: 0 0 2px;
 }
 
+.container-fluid>.navbar-header {
+  margin: 0 auto;
+  min-height: 68px;
+}
+
+.thumbnail {
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
 @media (max-width: 767px) {
   .navbar-fixed-top {
     margin-right: 0px;
     margin-left: 0px;
   }
 }
-
-.container-fluid>.navbar-header {
-  margin: 0 auto;
-  min-height: 68px;
-}
-
-/* @media (max-width: 767px) {
-  .panel {
-    margin-top: 20px;
-  }
-} */

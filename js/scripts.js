@@ -3,7 +3,7 @@ document.onreadystatechange = function () {
 
     $('.carousel').carousel({interval: 1000000});
 
-    $("#nav").on("click","a", function (event) {
+    $("nav").on("click","a", function (event) {
       //отменяем стандартную обработку нажатия по ссылке
       event.preventDefault();
 

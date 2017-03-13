@@ -9,6 +9,22 @@ nav {
   opacity: 0.85;
 }
 
+.navbar-toggle {
+  margin-top: 16px;
+}
+
+.navbar-nav {
+  margin: 0px 0px;
+}
+
+.navbar-color:hover {
+  background: red;
+}
+
+#head-fon {
+  max-width: 100%;
+}
+
 p {
   color: #616161;
 }
@@ -80,28 +96,51 @@ footer {
   padding: 15px 0px;
 }
 
-.submit-btn {
-  margin-top: 15px;
-  margin-left: 11px;
-  float: right;
+.contacts-container {
+  padding: 15px 0px;
+}
+
+.embed-responsive-4by3 {
+  padding-bottom: 72%;
 }
 
 address {
-  margin-top: 15px;
+  margin: 13px 0px;
 }
 
 .form-control {
-  margin: 16px 0;
+  margin: 15px 0;
 }
 
 panel-heading {
   text-align: center;
 }
 
-.contacts-container {
-  padding: 15px 0px;
+
+.submit-btn {
+  margin-top: 15px;
+  margin-left: 11px;
+  float: right;
 }
 
 .text-muted {
   margin: 0 0 2px;
 }
+
+@media (max-width: 767px) {
+  .navbar-fixed-top {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+.container-fluid>.navbar-header {
+  margin: 0 auto;
+  min-height: 68px;
+}
+
+/* @media (max-width: 767px) {
+  .panel {
+    margin-top: 20px;
+  }
+} */

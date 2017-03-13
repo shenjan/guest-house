@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -34,16 +34,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about-us">О нас</a></li>
-            <li><a href="#rooms">Номера</a></li>
-            <li><a href="#berdyansk">Уютный Бердянск</a></li>
-            <li><a href="#contact">Контакты</a></li>
+            <li class="navbar-color"><a href="#about-us">О нас</a></li>
+            <li class="navbar-color"><a href="#rooms">Номера</a></li>
+            <li class="navbar-color"><a href="#berdyansk">Уютный Бердянск</a></li>
+            <li class="navbar-color"><a href="#contact">Контакты</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <div class="jumbotron">
-      <img class="title-screen" src="source/img/berdyansk/night-in-city.jpg" alt="Ночь в Бердянске">
+      <img id="head-fon" class="title-screen" src="source/img/berdyansk/night-in-city.jpg" alt="Ночь в Бердянске">
     </div>
     <div class="container">
       <div class="row">
@@ -287,15 +287,15 @@
                 <strong>Viber:</strong> +38 (068) 177 25 85<br>
                 <strong>Skype:</strong> 100steps.org
               </address>
-              <form action="https://formspree.io/yanageraxl@gmail.com" method="GET">
+              <form action="https://formspree.io/yanageraxl@gmail.com" method="POST">
                 <div class="form-group">
                   <label>Заполните поля для быстрой связи с нами:</label>
                   <input type="text" class="form-control" id="inputName" placeholder="Имя" required>
                   <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
                   <input type="tel" class="form-control" id="inputPhone" title="+38(000)222-33-44" placeholder="+38 (000)222-33-44" required>
                   <textarea class="form-control" placeholder="Текст сообщения" rows="5"></textarea>
-                  <input class="btn btn-primary submit-btn" type="submit" value="Отправить"></input>
-                  <input class="btn btn-primary submit-btn" type="reset" value="Сбросить"></input>
+                  <input class="btn btn-primary submit-btn" type="submit" value="Отправить">
+                  <input class="btn btn-primary submit-btn" type="reset" value="Сбросить">
                 </div>
               </form>
             </div>
